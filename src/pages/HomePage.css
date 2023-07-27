@@ -305,8 +305,11 @@
   width: 30%;
 }
 .top-prices .header-coin .right-side {
+  font-size: 0.7rem;
   width: 70%;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .top-prices .header-coin img {
@@ -330,9 +333,10 @@
 @media (max-width: 1100px) {
   .choose-content-container {
     flex-direction: column;
+    padding-inline: 0;
   }
   .choosebox-container {
-    min-width: 100vw;
+    min-width: 90vw;
     align-items: center;
   }
   .choose-content-container .mid-section img {
@@ -391,9 +395,30 @@
     gap: 1rem;
     width: 80%;
   }
+
+  .market-coins-display {
+    padding: 1rem;
+  }
+  .market-top-section p {
+    text-align: right;
+  }
+
+  .market-top-section p:nth-child(1) {
+    text-align: left;
+  }
+  .market-coins-display .img-title h2 {
+    align-self: flex-start;
+  }
+  .market-coins-display .img-title img {
+    align-self: flex-start;
+  }
+  .market-coins-display * {
+    align-self: flex-end;
+    text-align: right;
+  }
+
   .img-title {
     flex-direction: column;
-    position: relative;
     align-items: flex-start;
   }
   .market-top-section p,
