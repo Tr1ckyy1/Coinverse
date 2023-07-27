@@ -28,6 +28,7 @@
   margin-block: -1rem;
   padding-inline: 3rem;
   display: flex;
+  gap: 2rem;
   flex-direction: column;
 }
 
@@ -42,18 +43,28 @@
 }
 
 .coin-detail-right .description {
+  font-family: sans-serif;
   height: 300px;
   overflow-y: scroll;
-  line-height: 1.5;
+  line-height: 1.8;
   font-size: 1.3rem;
+  padding: 1rem;
+  border-top: 5px solid rgba(247, 100, 235, 0.3);
+  border-left: 5px solid rgba(247, 100, 235, 0.2);
+  border-bottom: 5px solid rgba(247, 100, 235, 0.1);
+  border-radius: 10px;
 }
 
 .coin-detail-right .description a {
   color: #0ecb81;
 }
 
+@media (max-width: 1200px) {
+}
+
 @media (max-width: 1000px) {
   .current-coin-details {
+    padding-bottom: 5rem;
     flex-direction: column;
     gap: 5rem;
   }
