@@ -450,6 +450,11 @@
     width: 30px;
     height: 30px;
   }
+  .top-section .title .text h1,
+  .joinus-section .title .text h1,
+  .choose-us-container h1 {
+    font-size: 2rem;
+  }
   .market h1 {
     font-size: 2rem;
   }
