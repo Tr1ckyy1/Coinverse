@@ -1,0 +1,467 @@
+.top-section {
+  background: linear-gradient(#130749, #0f051d 70%);
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+  padding-inline: 2.5rem;
+}
+
+.top-section .title {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-section .title img {
+  width: 70px;
+  height: 100%;
+}
+
+.top-section .title .text {
+  text-transform: uppercase;
+  text-align: center;
+}
+.top-section .title .text h1 {
+  font-size: 6rem;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.text h1:nth-child(2) {
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.top-section .mid-side {
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header-coins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.7;
+}
+
+.header-coins .img {
+  width: 90px;
+}
+
+.header-coins .img img {
+  width: 100%;
+}
+
+.header-coins h1 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.green {
+  color: #0ecb81;
+}
+
+/*  MARKET */
+
+.market {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 2.5rem;
+}
+
+.market h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.market-top-section {
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  padding: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  gap: 2rem;
+  white-space: nowrap;
+}
+
+.market-top-section p {
+  width: 25%;
+}
+
+.market-coins-display {
+  padding: 2.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-bottom: 1px solid white;
+}
+.market-coins-display * {
+  width: 25%;
+}
+.img-title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-align: left;
+}
+
+/* PAGINATION */
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.pagination-container button {
+  border-radius: 9999px;
+  font-size: 1.3rem;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #0f051d;
+}
+
+.pagination-container button:hover {
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  color: white;
+  transition: 0.3s;
+}
+
+.selected {
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  color: white;
+}
+
+/* CHOOSE US SECTION */
+
+.choose-us-container {
+  margin-top: 13rem;
+  padding-inline: 2.5rem;
+}
+.choose-us-container h1 {
+  text-transform: uppercase;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.choose-us-container span {
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.choose-content-container {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 10rem;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+.choose-content-container .left-section,
+.choose-content-container .right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.choose-content-container .mid-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choose-content-container .mid-section img {
+  width: 100%;
+  object-fit: cover;
+}
+.choosebox-container {
+  border: 1px solid rgba(131, 131, 131, 0.25);
+  display: flex;
+  max-width: 330px;
+  padding: 1.5rem;
+  font-family: Inter;
+  gap: 1.7rem;
+  border-radius: 2.4rem;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.choosebox-container span {
+  color: white;
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  padding: 1rem;
+  height: 4rem;
+  border-radius: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.choosebox-container h4 {
+  font-size: 1.5rem;
+}
+.choose-us-container p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+/* JOINUS SECTION */
+
+.joinus-section {
+  margin-top: 13rem;
+  padding-bottom: 2rem;
+}
+
+.joinus-section .title {
+  display: flex;
+  color: white;
+  padding-inline: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.joinus-section .title img {
+  width: 70px;
+  height: 100%;
+}
+
+.joinus-section .title .text {
+  text-transform: uppercase;
+  text-align: center;
+}
+.joinus-section .title .text h1 {
+  font-size: 6rem;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.text h1:nth-child(2) {
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.joinus-section .title .text p {
+  font-family: Inter;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  text-transform: none;
+}
+
+.join-btn {
+  display: block;
+  margin: 5rem auto;
+  padding: 1.2rem 2.6rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.5rem;
+  font-family: inherit;
+  font-weight: 600;
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  border: 1px solid #0f051d;
+}
+
+.join-btn:hover {
+  border: 1px solid #2600fc;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 0.3s;
+}
+
+/* TOP PRICES on 600px */
+.top-prices {
+  display: none;
+  transform: 1s;
+  flex-direction: column;
+
+  gap: 2rem;
+  padding-block: 2rem;
+}
+.top-prices .header-coin {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border-bottom: 1px solid white;
+  min-width: 90vw;
+}
+
+.top-prices .header-coin .left-side {
+  width: 30%;
+}
+.top-prices .header-coin .right-side {
+  width: 70%;
+}
+
+.top-prices .header-coin img {
+  width: 100%;
+  height: 100%;
+}
+
+.see-top-prices-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  padding: 2rem;
+  border: 1px solid #0f051d;
+  border-radius: 50px;
+}
+
+@media (max-width: 1100px) {
+  .choose-content-container {
+    flex-direction: column;
+  }
+  .choosebox-container {
+    min-width: 80vw;
+    align-items: center;
+  }
+  .choose-content-container .mid-section img {
+    height: 40%;
+    width: 40%;
+    object-fit: cover;
+  }
+
+  .top-section .title {
+    justify-content: center;
+  }
+  .top-section .title .text h1,
+  .joinus-section .title .text h1 {
+    font-size: 5rem;
+  }
+  .top-section .title img {
+    margin-inline: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .top-section .title .text h1,
+  .joinus-section .title .text h1,
+  .choose-us-container h1 {
+    font-size: 4rem;
+  }
+  .top-section .mid-side {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .market-top-section {
+    font-size: 1.4rem;
+  }
+
+  .market-coins-display {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .top-section .title img {
+    display: none;
+  }
+  .joinus-section .title img {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .top-section .mid-side {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+    gap: 1rem;
+    width: 80%;
+  }
+  .market-top-section p,
+  .market-coins-display * {
+    width: 33.3%;
+  }
+  .top-section .title .text h1,
+  .joinus-section .title .text h1,
+  .choose-us-container h1 {
+    font-size: 3rem;
+  }
+
+  .cap {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-prices {
+    display: flex;
+  }
+  .top-section .mid-side {
+    display: none;
+  }
+  .top-section .title .text h1,
+  .joinus-section .title .text h1,
+  .choose-us-container h1 {
+    white-space: wrap;
+  }
+}
+
+@media (max-width: 500px) {
+  .market-top-section p {
+    text-align: right;
+  }
+  .market-top-section p:first-child {
+    text-align: left;
+  }
+  .market-coins-display * {
+    text-align: right;
+  }
+
+  .pagination-container button {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+  .top-section .title .text h1,
+  .joinus-section .title .text h1,
+  .choose-us-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .see-top-prices-btn {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .pagination-container button {
+    width: 30px;
+    height: 30px;
+  }
+  .market h1 {
+    font-size: 2rem;
+  }
+  .market-top-section {
+    font-size: 1rem;
+  }
+
+  .market-coins-display {
+    font-size: 0.5rem;
+  }
+}
