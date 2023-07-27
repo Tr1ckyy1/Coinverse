@@ -91,7 +91,11 @@ function HomePageTopSection() {
             onClick={() => setOpenTopPriced((oldToggle) => !oldToggle)}
             className="see-top-prices-btn"
           >
-            See top priced coins &darr;
+            {openTopPriced ? (
+              <>Hide top priced coins &uarr;</>
+            ) : (
+              <>Show top priced coins &darr;</>
+            )}
           </button>
           {openTopPriced && renderTopPriced}
         </div>
