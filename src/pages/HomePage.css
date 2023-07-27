@@ -393,6 +393,11 @@
     gap: 1rem;
     width: 80%;
   }
+  .img-title {
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+  }
   .market-top-section p,
   .market-coins-display * {
     width: 33.3%;
@@ -423,21 +428,12 @@
 }
 
 @media (max-width: 500px) {
-  .market-top-section p {
-    text-align: right;
-  }
-  .market-top-section p:first-child {
-    text-align: left;
-  }
-  .market-coins-display * {
-    text-align: right;
-  }
-
   .pagination-container button {
     width: 35px;
     height: 35px;
     font-size: 1rem;
   }
+
   .top-section .title .text h1,
   .joinus-section .title .text h1,
   .choose-us-container h1 {
@@ -459,9 +455,16 @@
   }
   .market-top-section {
     font-size: 1rem;
+    gap: 3rem;
+    display: flex;
   }
 
   .market-coins-display {
-    font-size: 0.5rem;
+    gap: 3rem;
+    font-size: 0.56rem;
+  }
+
+  .img-title img {
+    width: 100%;
   }
 }
