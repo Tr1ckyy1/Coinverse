@@ -8,7 +8,7 @@ The website is connected to the Coingecko API, a popular source for cryptocurren
 
 </p>
 
-👉 Live Demo: <a target="_blank" href='https://coinverse-project.netlify.app/'>Coindom Demo</a>
+👉 Live Demo: <a target="_blank" href='https://coinverse-project.netlify.app/'>Coinverse</a>
 
 <h3>Built with:</h3>
 
