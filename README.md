@@ -2,7 +2,7 @@
 
 <h2>About the project</h2>
 
-Introducing <p><b>Coinverse</b> your go-to destination for exploring real-time information about various cryptocurrencies, a website that provides accurate and up-to-date data on cryptocurrency prices, market cap, trading volume, and more.<br/>
+<p>Introducing <b>Coinverse</b> your go-to destination for exploring real-time information about various cryptocurrencies, a website that provides accurate and up-to-date data on cryptocurrency prices, market cap, trading volume, and more.<br/>
 
 The website is connected to the Coingecko API, a popular source for cryptocurrency data, to ensure that you have access to the latest insights on hundreds of cryptocurrencies. Whether you're a crypto enthusiast or an investor, this platform helps you stay informed and make well-informed decisions.
 
