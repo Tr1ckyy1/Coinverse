@@ -14,6 +14,7 @@ function HomePageTopSection() {
   const dataPromise = useLoaderData();
 
   function renderAPI(data) {
+    // Render 4 popular coins
     const render = data.slice(0, 4).map((coin) => {
       const priceChanged = coin.market_data.price_change_percentage_24h;
       const currentPrice = coin.market_data.current_price.usd;
@@ -29,7 +30,8 @@ function HomePageTopSection() {
               <img src={coin.image.large} />
             </div>
             <h1>
-              {coin.name}{" "}
+              {coin.name}
+              {""}
               <span
                 className={`price-changed ${
                   priceChanged > 0 ? "green" : "red"
@@ -44,6 +46,8 @@ function HomePageTopSection() {
       );
     });
 
+    // Render for mobile
+
     const topPricedCoinsSorted = data
       .slice()
       .sort(
@@ -51,7 +55,7 @@ function HomePageTopSection() {
           b.market_data.current_price.usd - a.market_data.current_price.usd
       );
 
-    const renderTopPriced = topPricedCoinsSorted.slice(0, 5).map((coin) => {
+    const renderTopPriced = topPricedCoinsSorted.slice(0, 7).map((coin) => {
       const priceChanged = coin.market_data.price_change_percentage_24h;
       const currentPrice = coin.market_data.current_price.usd;
       const transformPriceToCurrency = currentPrice.toLocaleString(`en-US`, {
