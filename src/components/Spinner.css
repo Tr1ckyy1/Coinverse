@@ -1,17 +1,15 @@
 .loading-spinner {
   margin: 5rem auto;
   border-radius: 9999px;
-  border: 16px solid #0f051d;
-  /* border-bottom: 16px solid #130749;
-  border-top: 16px solid #ff00ea; */
-  border-radius: 9999px;
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   animation: spin 1.5s linear infinite;
-  border-left: 16px dotted #130749;
-  border-right: 16px dotted #ff00ea;
-  border-top: 16px dotted #130749;
-  border-bottom: 16px dotted #ff00ea;
+  border-style: dotted;
+  border-width: 16px;
+  border-top-color: #130749;
+  border-right-color: #ff00ea;
+  border-bottom-color: #ff00ea;
+  border-left-color: #130749;
 }
 
 @keyframes spin {
